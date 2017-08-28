@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<title>Jan Flitter - Technologien</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
+
+
+<style>
+html,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}    
+    
+body{
+font-family: "Roboto", sans-serif
+background-color: #f1f1f1;
+overflow-wrap: break-word;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 99;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+    
+.active {
+    background-color: #2196F3;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 5px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #2196F3; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.w3-margin-right {
+    margin-right: 119.5px!important;
+}
+.w3-margin-left {
+    margin-left: 119.5px!important;
+    
+</style>
+<body>
+<body bgcolor="#f1f1f1">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Nach oben</button>
+<script>// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+} </script>        
+    
+<ul>
+  <li><a href="./">Startseite</a></li>
+  <li><a class="active" href="platforms">Technologien</a></li>
+  <li><a href="certificates">Zertifikate</a></li>
+  <li><a href="platforms">Andere Plattformen</a></li>
+  <li style="float:right"><a href="impressum">Impressum</a></li>
+</ul>
+<div class="w3-bottom">
+  <div class="w3-bar w3-blue">
+    <p align="center"></p>
+  </div>
+</div>
+<br><br><br>
+  <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-right w3-margin-left w3-padding-16">
+  
+     <div><h5><i class="fa fa-desktop fa-fw w3-xxlarge w3-text-blue"></i>&nbsp;<span class="w3-xxlarge w3-text-grey">Clients</h5>
+  <hr>
+  <p><i class="fa fa-windows fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Windows (XP, 7, 10)</font></p>
+  <p><i class="fa fa-linux fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Linux</font></p>
+  <p><i class="fa fa-android fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Android</font></p>
+  </div></div>
+  
+  <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-right w3-margin-left w3-padding-16">
+  
+     <div><h5><i class="fa fa-server fa-fw w3-xxlarge w3-text-blue"></i>&nbsp;<span class="w3-xxlarge w3-text-grey">Server</h5>
+  <hr>
+  <p><i class="fa fa-windows fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Windows Server (2008, 2012, 2016)</font></p>
+  <p><i class="fa icon-redhat fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;RHEL/</font></p>
+  <p><i class="fa icon-centos fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;CentOS</font></p>
+  <p><i class="fa icon-ubuntu fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Ubuntu</font></p>
+  <p><i class="fa icon-raspberrypi fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Raspian</font></p>
+  <p><i class="fa icon-nginx fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;nginx</font></p>
+  <p><i class="fa icon-apache fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Apache</font></p>
+  </div></div>
+  
+    <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-right w3-margin-left w3-padding-16">
+  
+     <div><h5><i class="fa fa-plug fa-fw w3-xxlarge w3-text-blue"></i>&nbsp;<span class="w3-xxlarge w3-text-grey">Netzwerk</h5>
+  <hr>
+  <p><i class="fa fa-spinner fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;(CISCO)</font></p>
+  <p><i class="fa fa-spinner fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;(HUAWEI)</font></p>
+  <p><i class="fa fa-spinner fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;(JUNIPER)</font></p>
+  <p><i class="fa fa-spinner fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;(RJ45)</font></p>
+  <p><i class="fa fa-spinner fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;(GLASFASER)</font></p>
+  <p><i class="fa icon-backbone fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Backbone und Corenetzwerke</font></p>
+  <p><i class="fa icon-antenna fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Mobilfunktechnologien</font></p>
+  </div></div>
+  
+    <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-right w3-margin-left w3-padding-16">
+  
+     <div><h5><i class="fa icon-database fa-fw w3-xxlarge w3-text-blue"></i>&nbsp;<span class="w3-xxlarge w3-text-grey">Datenbanken</span></h5>
+  <hr>
+  <p><i class="fa icon-mysql-alt fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;MySQL</font></p>
+  <p><i class="fa icon-postgres fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;PostgreSQL</font></p>
+  <p><i class="fa icon-mariadb fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;MariaDB</font></p>
+  </div></div>
+  
+    <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-right w3-margin-left w3-padding-16">
+  
+     <div><h5><i class="fa fa-code fa-fw w3-xxlarge w3-text-blue"></i>&nbsp;<span class="w3-xxlarge w3-text-grey">Programmierung</h5>
+  <hr>
+  <p><i class="fa icon-python fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Python</font></p>
+  <p><i class="fa icon-perl fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Perl</font></p>
+  <p><i class="fa icon-shell fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Shell</font></p>
+  </div></div>
+  
+    <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-right w3-margin-left w3-padding-16">
+  
+     <div><h5><i class="fa fa-sitemap fa-fw w3-xxlarge w3-text-blue"></i>&nbsp;<span class="w3-xxlarge w3-text-grey">Utilities</h5>
+  <hr>
+  <p><i class="fa icon-docker fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Docker</font></p>
+  <p><i class="fa icon-npm fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;NPM</font></p>
+  <p><i class="fa icon-git fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Git</font></p>
+  <p><i class="fa fa-spinner fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;(VIRTUALISIERUNG)</font></p>
+  </div></div>
+  
+   <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-right w3-margin-left w3-padding-16">
+  
+     <div><h5><i class="fa fa-columns fa-fw w3-xxlarge w3-text-blue"></i>&nbsp;<span class="w3-xxlarge w3-text-grey">Webdesign</h5>
+  <hr>
+  <p><i class="fa icon-html5 fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;HTML</font></p>
+  <p><i class="fa icon-php fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;PHP</font></p>
+  <p><i class="fa icon-css3 fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;CSS</font></p>
+  <p><i class="fa icon-javascript fa-fw fa-2x w3-text-blue"></i><font size="5">&nbsp;Javascript</font></p>
+  </div></div>
+<br>  
+  
+</body>
+</html>
